@@ -1,0 +1,343 @@
+:root {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,700&display=swap");
+  /*Core styles*/
+  /*Main header*/
+  /*Main section*/
+  /*statistics section*/
+  /*About me*/
+  /*Services section styles*/
+  /*Client section*/
+  /*Partners section styles*/
+  /*Footer section*/
+}
+:root body {
+  width: 1170px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+:root .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+:root .to-uppercase {
+  text-transform: uppercase;
+}
+:root .clearfix {
+  clear: both;
+}
+:root .section-subtitle {
+  text-transform: uppercase;
+  color: dimgrey;
+  font-weight: 450;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+:root .section-title {
+  margin-top: 5px;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: brown;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+:root .button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, grey, black);
+  color: white;
+  font-weight: 100px;
+  font-size: 10px;
+}
+:root .main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgb(163, 48, 48);
+  cursor: pointer;
+}
+:root .main-header__brand {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+:root .main-header__brand img {
+  width: 80px;
+}
+:root .main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+}
+:root .main-navigation__item {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 20px;
+}
+:root .main-navigation__item a {
+  color: rgb(91, 63, 147);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+}
+:root .main-navigation__item a:hover {
+  color: green;
+}
+:root .main-navigation__item.active a {
+  color: brown;
+}
+:root .main-section {
+  padding: 100px 30px;
+  cursor: pointer;
+}
+:root .main-section > div {
+  width: 50%;
+  float: left;
+}
+:root .main-section__image {
+  text-align: center;
+  width: 50%;
+}
+:root .main-section__image img {
+  width: 800px;
+  height: 500px;
+}
+:root .main-section__welcome {
+  letter-spacing: 2px;
+  color: gray;
+  font-weight: 400px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+:root .main-section__introduction {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: darkslateblue;
+}
+:root .main-section__position {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: darkslateblue;
+}
+:root .main-section__social-networks a {
+  margin-right: 15px;
+  color: rgb(180, 102, 102);
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+}
+:root .main-section__social-networks a:hover i {
+  color: black;
+}
+:root .main-section__button {
+  margin-top: 20px;
+}
+:root .statistics {
+  padding: top 100px;
+}
+:root .statistics__item {
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 6px 10px;
+  margin-right: 20px;
+}
+:root .statistics__number {
+  color: darkslateblue;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+:root .statistics__title {
+  color: gray;
+  font-size: 20px;
+  font-weight: 300;
+}
+:root .about-me {
+  padding: 100px 0px;
+}
+:root .about-me > div {
+  width: 50%;
+  float: left;
+}
+:root .about-me__image img {
+  padding-top: 30px;
+  width: 100%;
+  border-radius: 100px;
+}
+:root .section-subtitle {
+  text-transform: uppercase;
+  color: dimgrey;
+  font-weight: 450;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+:root .section-title {
+  margin-top: 15px;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: brown;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+:root .button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 100px;
+  font-size: 10px;
+}
+:root .about-me__introduce {
+  font-size: 15px;
+  line-height: 25px;
+  color: #797979;
+  font-weight: 250;
+}
+:root .about-me__action {
+  margin-top: 40px;
+}
+:root .services {
+  padding-top: 100px;
+}
+:root .service-card {
+  display: inline-block;
+  width: 30%;
+  padding: 60px 30px;
+  background-color: white;
+  margin-right: 3%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+:root .service-card__title {
+  color: darkslateblue;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+:root .service-card__description {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: darkslateblue;
+}
+:root .service-card__link {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: blueviolet;
+  text-decoration: none;
+}
+:root .service-card:hover {
+  background-color: black;
+}
+:root .service-card:hover .service-card__title,
+:root .service-card:hover .service-card__description,
+:root .service-card:hover .service-card__link {
+  color: white;
+}
+:root .clients {
+  padding-top: 100px;
+}
+:root .client-item > div {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+:root .client-item__image img {
+  padding-top: 30px;
+  width: 100%;
+  border-radius: 100px;
+}
+:root .client-item__introduce {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+:root .client-item__name {
+  text-transform: uppercase;
+  color: blueviolet;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+:root .client-item__position {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(85, 85, 179);
+}
+:root .client-item__review {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  color: rgb(82, 73, 157);
+}
+:root .client-item__rate {
+  color: gold;
+}
+:root .disabled {
+  color: darkgrey;
+}
+:root .partners {
+  padding-top: 100px;
+  width: 100%;
+}
+:root .partner {
+  display: inline-block;
+  padding: 0px 30px;
+}
+:root * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root ul {
+  list-style: none;
+}
+:root .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+:root .footer {
+  background-color: #33363e;
+  padding: 70px 0;
+}
+:root .footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+:root .footer-col h4 {
+  font-size: 18px;
+  color: whitesmoke;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+:root .footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+:root .footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: flex;
+  transition: all 0.3s ease;
+}
+:root .footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */

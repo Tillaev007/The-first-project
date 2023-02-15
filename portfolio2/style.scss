@@ -1,0 +1,476 @@
+:root{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,700&display=swap');
+
+
+ /*Core styles*/
+ 
+ 
+ body{
+    width: 1170px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+
+ .container{
+    width: 1140px;
+    margin: 0 auto;
+ }
+
+
+ .to-uppercase{
+    text-transform: uppercase ;
+ }
+
+
+ .clearfix{
+    clear: both;
+ }
+
+ 
+.section-subtitle{
+    text-transform: uppercase;
+    color: dimgrey;
+    font-weight: 450;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.section-title{
+    margin-top: 5px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: brown;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+   background-image: linear-gradient(to right, grey,black);
+    color: white;
+
+    font-weight: 100px;
+    font-size: 10px;
+
+
+}
+
+
+
+ /*Main header*/
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgb(163, 48, 48);
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+.main-header__brand{
+ 
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:15px;
+}
+
+
+.main-header__brand img{
+   width: 80px;
+}
+
+.main-navigation{
+   
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main-navigation__item{
+  
+    display: inline-block;
+   padding: 10px;
+ 
+}
+
+
+.main-navigation__item a {
+    color: rgb(91, 63, 147);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.main-navigation__item a:hover{
+    color:green; 
+}
+
+.main-navigation__item.active a{
+    color:brown;
+}
+
+/*Main section*/
+
+
+
+.main-section{
+    padding: 100px 30px;
+    cursor: pointer;
+  
+}
+
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+
+.main-section__image{
+    text-align: center;
+    width: 50%;
+}
+
+
+
+.main-section__image img{
+    width: 800px;
+    height:500px ;
+}
+
+
+.main-section__welcome{
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+.main-section__introduction{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: darkslateblue
+}
+
+.main-section__position{
+    font-size:30px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color:darkslateblue ;
+}
+.main-section__social-networks a {
+    margin-right: 15px;
+    color: rgb(180, 102, 102);
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.main-section__social-networks a:hover i{
+    color: black;
+}
+
+
+.main-section__button{
+  
+    margin-top: 20px;
+    
+
+
+
+
+}
+/*statistics section*/
+ .statistics{
+    padding: top 100px;
+ }
+
+ .statistics__item{
+    background-color:white;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 10px;
+    margin-right: 20px;
+ }
+
+
+
+ .statistics__number{
+   color: darkslateblue;
+    font-size: 25px;
+    margin-bottom: 5px;
+ }
+
+ .statistics__title{
+    color:gray;
+    font-size: 20px;
+    font-weight: 300;
+ }
+
+
+
+ /*About me*/
+
+ .about-me{
+    padding: 100px 0px;
+
+ }
+
+ .about-me > div{
+    width: 50%;
+    float: left;
+
+
+ }
+
+ .about-me__image img {
+    padding-top: 30px;
+    width: 100%;
+    border-radius: 100px;
+ }
+
+.section-subtitle{
+    text-transform: uppercase;
+    color: dimgrey;
+    font-weight: 450;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.section-title{
+    margin-top: 15px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: brown;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+    font-weight: 100px;
+    font-size: 10px;
+
+
+}
+
+
+
+.about-me__introduce{
+    font-size: 15px;
+    line-height: 25px;
+    color: #797979;
+    font-weight: 250;
+
+}
+
+.about-me__action{
+    margin-top: 40px;
+}
+
+/*Services section styles*/
+
+.services{
+  padding-top: 100px;
+}
+
+
+.service-card{
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: white;
+    margin-right: 3%;
+    text-align: center;  
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.service-card__title{
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.service-card__description{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    color:darkslateblue ;
+
+
+}
+
+.service-card__link{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.service-card:hover{
+    background-color: black;
+}
+
+.service-card:hover .service-card__title,
+.service-card:hover  .service-card__description,
+.service-card:hover  .service-card__link{
+    color: white;
+}
+
+
+
+
+/*Client section*/
+
+.clients{
+    padding-top:100px; 
+}
+
+.client-item > div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.client-item__image img {
+    padding-top: 30px;
+    width: 100%;
+    border-radius: 100px;
+    
+}
+
+.client-item__introduce{
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+
+.client-item__name{
+    text-transform: uppercase;
+    color: blueviolet;
+
+   
+    font-size: 25px;
+    margin-bottom: 5px;
+
+}
+
+
+.client-item__position{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(85, 85, 179);
+  
+
+}
+
+.client-item__review{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: rgb(82, 73, 157);
+
+
+}
+
+
+.client-item__rate{
+    color: gold;
+}
+
+
+.disabled{
+    color: darkgrey;
+}
+
+
+
+/*Partners section styles*/
+
+.partners{
+    padding-top: 100px;
+    width: 100%;
+
+
+
+}
+
+.partner {
+    display: inline-block;
+    padding: 0px 30px;
+  
+}
+
+
+
+
+
+/*Footer section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+}
